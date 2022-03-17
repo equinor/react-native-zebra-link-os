@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B3E7B58A1CC2AC0600A0062D /* RNZebraLinkOs.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNZebraLinkOs.m */; };
+		BFA784E52314FD2F00F31BF1 /* libZSDK_API.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFA784E42314FD2F00F31BF1 /* libZSDK_API.a */; };
+		BFA784EB2314FFBC00F31BF1 /* PrintJob.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA784EA2314FFBC00F31BF1 /* PrintJob.m */; };
+		BFA7883C231E45B200F31BF1 /* LabelHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA7883B231E45B200F31BF1 /* LabelHelper.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		58B511D91A9E6C8500147676 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		134814201AA4EA6300B7C361 /* libRNZebraLinkOs.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNZebraLinkOs.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B3E7B5881CC2AC0600A0062D /* RNZebraLinkOs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNZebraLinkOs.h; sourceTree = "<group>"; };
+		B3E7B5891CC2AC0600A0062D /* RNZebraLinkOs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNZebraLinkOs.m; sourceTree = "<group>"; };
+		BFA784CF2314FD2200F31BF1 /* MagCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MagCardReader.h; path = LinkOS/MagCardReader.h; sourceTree = "<group>"; };
+		BFA784D02314FD2200F31BF1 /* ZebraPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZebraPrinter.h; path = LinkOS/ZebraPrinter.h; sourceTree = "<group>"; };
+		BFA784D12314FD2200F31BF1 /* PrinterStatusMessages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrinterStatusMessages.h; path = LinkOS/PrinterStatusMessages.h; sourceTree = "<group>"; };
+		BFA784D22314FD2200F31BF1 /* NetworkDiscoverer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NetworkDiscoverer.h; path = LinkOS/NetworkDiscoverer.h; sourceTree = "<group>"; };
+		BFA784D32314FD2200F31BF1 /* DiscoveredPrinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoveredPrinter.h; path = LinkOS/DiscoveredPrinter.h; sourceTree = "<group>"; };
+		BFA784D42314FD2200F31BF1 /* DiscoveredPrinterNetwork.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DiscoveredPrinterNetwork.h; path = LinkOS/DiscoveredPrinterNetwork.h; sourceTree = "<group>"; };
+		BFA784D52314FD2200F31BF1 /* PrinterStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PrinterStatus.h; path = LinkOS/PrinterStatus.h; sourceTree = "<group>"; };
+		BFA784D62314FD2200F31BF1 /* GraphicsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GraphicsUtil.h; path = LinkOS/GraphicsUtil.h; sourceTree = "<group>"; };
+		BFA784D72314FD2200F31BF1 /* ZebraErrorCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZebraErrorCode.h; path = LinkOS/ZebraErrorCode.h; sourceTree = "<group>"; };
+		BFA784D82314FD2200F31BF1 /* ZebraPrinterFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZebraPrinterFactory.h; path = LinkOS/ZebraPrinterFactory.h; sourceTree = "<group>"; };
+		BFA784D92314FD2200F31BF1 /* SGD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SGD.h; path = LinkOS/SGD.h; sourceTree = "<group>"; };
+		BFA784DA2314FD2200F31BF1 /* FieldDescriptionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FieldDescriptionData.h; path = LinkOS/FieldDescriptionData.h; sourceTree = "<group>"; };
+		BFA784DB2314FD2200F31BF1 /* ResponseValidator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ResponseValidator.h; path = LinkOS/ResponseValidator.h; sourceTree = "<group>"; };
+		BFA784DC2314FD2200F31BF1 /* FormatUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FormatUtil.h; path = LinkOS/FormatUtil.h; sourceTree = "<group>"; };
+		BFA784DD2314FD2300F31BF1 /* SmartCardReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SmartCardReader.h; path = LinkOS/SmartCardReader.h; sourceTree = "<group>"; };
+		BFA784DE2314FD2300F31BF1 /* TcpPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TcpPrinterConnection.h; path = LinkOS/TcpPrinterConnection.h; sourceTree = "<group>"; };
+		BFA784DF2314FD2300F31BF1 /* FileUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FileUtil.h; path = LinkOS/FileUtil.h; sourceTree = "<group>"; };
+		BFA784E02314FD2300F31BF1 /* MfiBtPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MfiBtPrinterConnection.h; path = LinkOS/MfiBtPrinterConnection.h; sourceTree = "<group>"; };
+		BFA784E12314FD2300F31BF1 /* ToolsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ToolsUtil.h; path = LinkOS/ToolsUtil.h; sourceTree = "<group>"; };
+		BFA784E22314FD2300F31BF1 /* ZebraPrinterConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZebraPrinterConnection.h; path = LinkOS/ZebraPrinterConnection.h; sourceTree = "<group>"; };
+		BFA784E32314FD2300F31BF1 /* ZplPrintMode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZplPrintMode.h; path = LinkOS/ZplPrintMode.h; sourceTree = "<group>"; };
+		BFA784E42314FD2F00F31BF1 /* libZSDK_API.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libZSDK_API.a; path = LinkOS/libZSDK_API.a; sourceTree = "<group>"; };
+		BFA784E92314FFBC00F31BF1 /* PrintJob.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrintJob.h; sourceTree = "<group>"; };
+		BFA784EA2314FFBC00F31BF1 /* PrintJob.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PrintJob.m; sourceTree = "<group>"; };
+		BFA7883A231E45B200F31BF1 /* LabelHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LabelHelper.h; sourceTree = "<group>"; };
+		BFA7883B231E45B200F31BF1 /* LabelHelper.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LabelHelper.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		58B511D81A9E6C8500147676 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA784E52314FD2F00F31BF1 /* libZSDK_API.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		134814211AA4EA7D00B7C361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				134814201AA4EA6300B7C361 /* libRNZebraLinkOs.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		58B511D21A9E6C8500147676 = {
+			isa = PBXGroup;
+			children = (
+				BF061F2623141D3F0081E662 /* LinkOS */,
+				BFA7883A231E45B200F31BF1 /* LabelHelper.h */,
+				BFA7883B231E45B200F31BF1 /* LabelHelper.m */,
+				BFA784E92314FFBC00F31BF1 /* PrintJob.h */,
+				BFA784EA2314FFBC00F31BF1 /* PrintJob.m */,
+				B3E7B5881CC2AC0600A0062D /* RNZebraLinkOs.h */,
+				B3E7B5891CC2AC0600A0062D /* RNZebraLinkOs.m */,
+				134814211AA4EA7D00B7C361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF061F2623141D3F0081E662 /* LinkOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFA784E42314FD2F00F31BF1 /* libZSDK_API.a */,
+				BFA784D32314FD2200F31BF1 /* DiscoveredPrinter.h */,
+				BFA784D42314FD2200F31BF1 /* DiscoveredPrinterNetwork.h */,
+				BFA784DA2314FD2200F31BF1 /* FieldDescriptionData.h */,
+				BFA784DF2314FD2300F31BF1 /* FileUtil.h */,
+				BFA784DC2314FD2200F31BF1 /* FormatUtil.h */,
+				BFA784D62314FD2200F31BF1 /* GraphicsUtil.h */,
+				BFA784CF2314FD2200F31BF1 /* MagCardReader.h */,
+				BFA784E02314FD2300F31BF1 /* MfiBtPrinterConnection.h */,
+				BFA784D22314FD2200F31BF1 /* NetworkDiscoverer.h */,
+				BFA784D52314FD2200F31BF1 /* PrinterStatus.h */,
+				BFA784D12314FD2200F31BF1 /* PrinterStatusMessages.h */,
+				BFA784DB2314FD2200F31BF1 /* ResponseValidator.h */,
+				BFA784D92314FD2200F31BF1 /* SGD.h */,
+				BFA784DD2314FD2300F31BF1 /* SmartCardReader.h */,
+				BFA784DE2314FD2300F31BF1 /* TcpPrinterConnection.h */,
+				BFA784E12314FD2300F31BF1 /* ToolsUtil.h */,
+				BFA784D72314FD2200F31BF1 /* ZebraErrorCode.h */,
+				BFA784D02314FD2200F31BF1 /* ZebraPrinter.h */,
+				BFA784E22314FD2300F31BF1 /* ZebraPrinterConnection.h */,
+				BFA784D82314FD2200F31BF1 /* ZebraPrinterFactory.h */,
+				BFA784E32314FD2300F31BF1 /* ZplPrintMode.h */,
+			);
+			name = LinkOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		58B511DA1A9E6C8500147676 /* RNZebraLinkOs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNZebraLinkOs" */;
+			buildPhases = (
+				58B511D71A9E6C8500147676 /* Sources */,
+				58B511D81A9E6C8500147676 /* Frameworks */,
+				58B511D91A9E6C8500147676 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNZebraLinkOs;
+			productName = RCTDataManager;
+			productReference = 134814201AA4EA6300B7C361 /* libRNZebraLinkOs.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		58B511D31A9E6C8500147676 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Facebook;
+				TargetAttributes = {
+					58B511DA1A9E6C8500147676 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+				};
+			};
+			buildConfigurationList = 58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNZebraLinkOs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+			);
+			mainGroup = 58B511D21A9E6C8500147676;
+			productRefGroup = 58B511D21A9E6C8500147676;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				58B511DA1A9E6C8500147676 /* RNZebraLinkOs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		58B511D71A9E6C8500147676 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFA7883C231E45B200F31BF1 /* LabelHelper.m in Sources */,
+				B3E7B58A1CC2AC0600A0062D /* RNZebraLinkOs.m in Sources */,
+				BFA784EB2314FFBC00F31BF1 /* PrintJob.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		58B511ED1A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		58B511EE1A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		58B511F01A9E6C8500147676 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LinkOS",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNZebraLinkOs;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		58B511F11A9E6C8500147676 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/../../../React/**",
+					"$(SRCROOT)/../../react-native/React/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/LinkOS",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = RNZebraLinkOs;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		58B511D61A9E6C8500147676 /* Build configuration list for PBXProject "RNZebraLinkOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511ED1A9E6C8500147676 /* Debug */,
+				58B511EE1A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNZebraLinkOs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				58B511F01A9E6C8500147676 /* Debug */,
+				58B511F11A9E6C8500147676 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 58B511D31A9E6C8500147676 /* Project object */;
+}
