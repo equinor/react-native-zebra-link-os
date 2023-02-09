@@ -16,6 +16,11 @@ Pod::Spec.new do |s|
 
   s.source_files = "ios/**/*.{h,m,mm}"
 
+  # Our package does not use ARC (Automatic Reference Counting), and we need to disable it with the command below
+  s.requires_arc = false
+  # Our package is dependent on Zebra's SDK, so we link it with the command below
+  s.vendored_libraries = "ios/LinkOS/libZSDK_API.a"
+
   s.dependency "React-Core"
 
   # Don't install the dependencies when we run `pod install` in the old architecture.
