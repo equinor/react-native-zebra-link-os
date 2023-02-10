@@ -1,6 +1,6 @@
 {
   "name": "react-native-zebra-link-os",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "test",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
@@ -41,13 +41,13 @@
     "ios",
     "android"
   ],
-  "repository": "https://github.com/tormodAase/react-native-the-newest-zebra",
+  "repository": "https://github.com/equinor/react-native-zebra-link-os",
   "author": "Tormod Aase <toraas@equinor.com> (https://github.com/tormodAase)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/tormodAase/react-native-the-newest-zebra/issues"
+    "url": "https://github.com/equinor/react-native-zebra-link-os/issues"
   },
-  "homepage": "https://github.com/tormodAase/react-native-the-newest-zebra#readme",
+  "homepage": "https://github.com/equinor/react-native-zebra-link-os#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
