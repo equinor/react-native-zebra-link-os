@@ -4,10 +4,11 @@ import { StyleSheet, View, Text } from 'react-native';
 import RNZebraLinkOs from 'react-native-zebra-link-os';
 
 export default function App() {
+  //log RNZebraLinkOs to check if it's null
   console.log(RNZebraLinkOs);
   return (
     <View style={styles.container}>
-      <Text>Hello world</Text>
+      <Text>Check the console to see if RNZebraLinkOs is null</Text>
     </View>
   );
 }
