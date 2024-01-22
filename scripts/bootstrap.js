@@ -11,10 +11,6 @@ const options = {
   encoding: 'utf-8',
 };
 
-if (os.type() === 'Windows_NT') {
-  options.shell = true;
-}
-
 let result;
 
 if (process.cwd() !== root || args.length) {
