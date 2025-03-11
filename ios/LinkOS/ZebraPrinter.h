@@ -20,7 +20,7 @@
 #import "ToolsUtil.h"
 
 /**
- * An interface used to obtain various properties of a Zebra printer.
+ * @abstract An interface used to obtain various properties of a Zebra printer.
  * 
  * How to create an instance of a ZebraPrinter.
  * \code

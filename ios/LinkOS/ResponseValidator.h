@@ -11,6 +11,10 @@
  * ALL RIGHTS RESERVED
  ***********************************************/
 
+/**
+* @abstract
+*/
+
 @protocol ResponseValidator
 
 /**

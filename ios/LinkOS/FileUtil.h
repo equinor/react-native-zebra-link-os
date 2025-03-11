@@ -13,7 +13,7 @@
 
 
 /**
- *  This is a utility class for performing file operations on a printer.
+ *  @abstract This is a utility class for performing file operations on a printer.
  *  
  *  Send file contents to a printer:
  *

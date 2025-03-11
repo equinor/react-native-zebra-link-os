@@ -15,7 +15,7 @@
 #import <CoreGraphics/CoreGraphics.h>
 
 /**
- * This is an utility class for printing images on a printer.
+ * @abstract This is an utility class for printing images on a printer.
  * 
  * Print an image from the device to a printer.
  *
