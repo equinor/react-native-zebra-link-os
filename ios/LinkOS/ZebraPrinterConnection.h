@@ -14,7 +14,7 @@
 #import "ResponseValidator.h"
 
 /**
- * A connection to a Zebra printer.
+ * @abstract A connection to a Zebra printer.
  */
 @protocol ZebraPrinterConnection
 
@@ -208,26 +208,31 @@
  *
  *	<b>Tips for developing with this API...</b>
  *	<ol>
- *	<li>As a best pracitce, Zebra recommends not making calls to our API from the GUI thread. Use <a href="http://developer.apple.com/library/ios/#documentation/Performance/Reference/GCD_libdispatch_Ref/Reference/reference.html">Grand Central Dispatch</a> to accomplish this.</li>
+ *	<li>As a best practice, Zebra recommends not making calls to our API from the GUI thread. Use <a href="http://developer.apple.com/library/ios/#documentation/Performance/Reference/GCD_libdispatch_Ref/Reference/reference.html">Grand Central Dispatch</a> to accomplish this.</li>
  *	<li>Only Mobile printers are available with built-in magnetic card readers</li>
  *	<li>Each ZebraPrinterConnection object should only be used on a single thread</li>
  *	</ol>
  *
  *  <b>Project Settings and Configuration</b>
  *  <ul>
- *      <li>The API library was built using XCode 6</li>
- *      <li>Minimum iOS SDK is 8</li>
+ *      <li>The API library was built using XCode 14.2</li>
+ *      <li>Minimum iOS SDK is 11</li>
  *      <li>Valid architectures are armv7 and arm64</li>
- *      <li>Code is compiled with LLVM 6</li>
+ *      <li>Code is compiled with Apple clang version 14.0.0</li>
  *      <li>Library compiled using Manual Reference Counting</li>
  *      <li>If you wish to communicate to a <b>Made For iPhone</b> Zebra printer using Bluetooth, you need to:</li>
  *      <ul>
  *          <li>Link your project to the <b>ExternalAccessory</b> framework</li>
  *          <li>Add the proper protocol string to your plist file; <b>com.zebra.rawport</b></li>
  *          <li>Set the key <b>Required Background modes</b> to <b>App Communicates with an accessory</b> in your app's plist file</li>
- *          <li>To submit an App to the App Store which uses the MFi Zebra printer, <a href="http://www.zebra.com/link">follow the instructions here</a></li>
+ *          <li>To submit an App to the App Store which uses the MFi Zebra printer, <a href="https://www.zebra.com/content/dam/zebra_dam/en/faq/ios-app-faq-whitelisting-en-us.pdf">follow the instructions here</a></li>
  *      </ul>
- *      <li>Please supply your project's settings and configuration information if you need to <a href="http://www.zebra.com/us/en/about-zebra/contact-zebra/contact-tech-support.html">contact Tech Support</a></li>
+ *      <li>Your app must have this entitlement to send or receive IP multicast or broadcast on iOS. It also allows your app to browse and advertise arbitrary Bonjour service types. This entitlement requires permission from Apple before you can use it in your app. Please see <a href="https://developer.apple.com/documentation/bundleresources/entitlements/com_apple_developer_networking_multicast">this Apple Developer Documentation</a> for information about requesting the permission from Apple.</li>
+ *      <ul>
+ *          <li>com.apple.developer.networking.multicast</li>
+ *          <li>com.apple.developer.networking.wifi-info</li>
+ *      </ul>
+ *      <li>Please supply your project's settings and configuration information if you need to <a href="https://supportcommunity.zebra.com/s/contactsupport?language=en_US">contact Tech Support</a></li>
  *  </ul>
  */
 

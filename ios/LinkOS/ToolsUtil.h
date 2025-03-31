@@ -12,7 +12,7 @@
  ***********************************************/
 
 /**
- * This is a utility class for performing printer actions. (Restore defaults, calibrate, etc.).
+ * @abstract This is a utility class for performing printer actions. (Restore defaults, calibrate, etc.).
  */
 @protocol ToolsUtil
 

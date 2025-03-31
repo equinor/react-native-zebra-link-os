@@ -12,7 +12,7 @@
  ***********************************************/
 
 /** 
- * Provides access to the magnetic card reader, for printers equipped with one.
+ * @abstract Provides access to the magnetic card reader, for printers equipped with one.
  * @note Only mobile Zebra printers are available with built-in readers.
  *
  * \code

@@ -12,7 +12,7 @@
  ***********************************************/
 
 /**
- * Defines functions used for interacting with printer formats.
+ * @abstract Defines functions used for interacting with printer formats.
  * 
  * Print a stored format with the given variables.
  * This ZPL will store a format on a printer, for use with the example code.
