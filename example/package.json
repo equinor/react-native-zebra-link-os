@@ -8,8 +8,8 @@
     "pods": "pod-install --quiet"
   },
   "dependencies": {
-    "react": "18.2.0",
-    "react-native": "0.71.2"
+    "react": "19.0.0",
+    "react-native": "0.79.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.0",
